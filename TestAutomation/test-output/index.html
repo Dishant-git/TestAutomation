@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Customer_Flow_test" class="navigator-link">
+              <span class="suite-name border-passed">Customer Flow test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Customer_Flow_test" class="navigator-link ">
+                    <span>F:\work\TestAutomation\src\main\resources\testng_CustomerFlow.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Customer_Flow_test" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Customer_Flow_test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Customer_Flow_test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Customer_Flow_test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Customer_Flow_test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Customer_Flow_test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Customer_Flow_test" class="hide-methods passed suite-Customer_Flow_test"> (hide)</a> <!-- hide-methods passed suite-Customer_Flow_test -->
+                      <a href="#" panel-name="suite-Customer_Flow_test" class="show-methods passed suite-Customer_Flow_test"> (show)</a> <!-- show-methods passed suite-Customer_Flow_test -->
+                    </span>
+                    <div class="method-list-content passed suite-Customer_Flow_test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Customer_Flow_test" title="com.smscustomerflow.testcases.TestCustomerFlow" class="method navigator-link" hash-for-method="testLoginAndCustomerFlow(dev)">testLoginAndCustomerFlow(dev)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Customer_Flow_test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Customer_Flow_test" class="panel Customer_Flow_test">
+          <div class="suite-Customer_Flow_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.smscustomerflow.testcases.TestCustomerFlow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginAndCustomerFlow(dev)">
+                  </a> <!-- testLoginAndCustomerFlow(dev) -->
+                  <span class="method-name">testLoginAndCustomerFlow</span>
+                  <span class="parameters">(dev)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Customer_Flow_test-class-passed -->
+        </div> <!-- panel Customer_Flow_test -->
+        <div panel-name="test-xml-Customer_Flow_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\work\TestAutomation\src\main\resources\testng_CustomerFlow.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Customer Flow test&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;environment&quot; value=&quot;dev&quot;/&gt;
+  &lt;parameter name=&quot;obsidian&quot; value=&quot;disabled&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.reports.extentreportslistener.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.smscustomerflow.testcases.TestCustomerFlow&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testLoginAndCustomerFlow&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.smscustomerflow.testcases.TestCustomerFlow --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- Customer Flow test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Customer_Flow_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Customer Flow test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression Test Cases (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Customer_Flow_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Customer Flow test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Customer_Flow_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Customer Flow test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Customer_Flow_test');
+function tableData_Customer_Flow_test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testLoginAndCustomerFlow')
+data.setCell(0, 2, 'com.smscustomerflow.testcases.TestCustomerFlow')
+data.setCell(0, 3, 9074);
+window.suiteTableData['Customer_Flow_test']= { tableData: data, tableDiv: 'times-div-Customer_Flow_test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <div id="times-div-Customer_Flow_test">
+              </div> <!-- times-div-Customer_Flow_test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Customer_Flow_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Customer Flow test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Customer_Flow_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Customer_Flow_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.smscustomerflow.testcases.TestCustomerFlow</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">suiteSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">registerMethod(public void com.smscustomerflow.testcases.TestCustomerFlow.testLoginAndCustomerFlow(java.lang.String...)</span>
+                <span class="method-start">428 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAndCustomerFlow(dev)</span>
+                <span class="method-start">435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testLoginAndCustomerFlow status=SUCCESS method=TestCustomerFlow.testLoginAndCustome...)</span>
+                <span class="method-start">9512 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9563 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

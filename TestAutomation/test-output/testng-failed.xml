@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Customer Flow test]" guice-stage="DEVELOPMENT">
+  <parameter name="environment" value="dev"/>
+  <parameter name="obsidian" value="disabled"/>
+  <listeners>
+    <listener class-name="com.reports.extentreportslistener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Regression Test Cases(failed)">
+    <classes>
+      <class name="com.smscustomerflow.testcases.TestCustomerFlow">
+        <methods>
+          <include name="suiteSetup"/>
+          <include name="afterMethod"/>
+          <include name="registerMethod"/>
+          <include name="tearDown"/>
+          <include name="testLoginAndCustomerFlow" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.smscustomerflow.testcases.TestCustomerFlow -->
+    </classes>
+  </test> <!-- Regression Test Cases(failed) -->
+</suite> <!-- Failed suite [Customer Flow test] -->

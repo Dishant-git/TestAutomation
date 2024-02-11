@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Customer Flow test">
+	<parameter name="environment"  value="dev"/>
+	<parameter name="obsidian"     value="disabled"/>
+	
+	<listeners>
+		<listener class-name="com.reports.extentreportslistener.ExtentReportListener" />
+	</listeners>
+	
+	<test name="Regression Test Cases">	
+		<classes>			
+			<class name="com.smscustomerflow.testcases.TestCustomerFlow">
+                <methods>
+                    <include name="testLoginAndCustomerFlow"/>                   
+                </methods>
+			</class>
+		</classes>
+	</test>  
+</suite> 
